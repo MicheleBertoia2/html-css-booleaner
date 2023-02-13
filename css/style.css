@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+header, main {
+  padding-bottom: 10px;
+}
+
 /*Header*/
 
 .pattern-title  {
@@ -18,4 +22,24 @@
 .pattern-title img {
   height: 80%;
   padding-top: 15px;
+}
+
+/* Main */
+
+.lightweight {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.photo-tim {
+  width: 840px;
+}
+.photo-tim img {
+  height: 300px;
+}
+
+.photo-explanation {
+  font-size: 10px;
+  font-style: italic;
+  text-align: left;
 }
