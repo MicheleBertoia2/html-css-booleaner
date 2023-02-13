@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+body {
+  font-family: 'Arimo', sans-serif;
+}
+
 header, main, p, table, ul {
   padding-bottom: 20px;
 }
@@ -61,4 +65,27 @@ th {
 
 .row.blue {
   background-color: rgb(26, 172, 213);
+}
+
+/* footer */
+
+h3 {
+  color: gray;
+}
+
+.suggestion {
+  color: white;
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+}
+
+.suggestion.first{
+  background-image: url(../img/monitor.jpg);
+  background-size: cover;
+}
+
+.suggestion.second{
+  background-image: url(../img/graph.jpg);
+  background-size: cover;
 }
