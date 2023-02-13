@@ -4,8 +4,8 @@
   margin: 0;
 }
 
-header, main {
-  padding-bottom: 10px;
+header, main, p, table, ul {
+  padding-bottom: 20px;
 }
 
 /*Header*/
@@ -33,6 +33,7 @@ header, main {
 
 .photo-tim {
   width: 840px;
+  padding-bottom: 20px;
 }
 .photo-tim img {
   height: 300px;
@@ -42,4 +43,22 @@ header, main {
   font-size: 10px;
   font-style: italic;
   text-align: left;
+}
+
+p .highlight {
+  background-color: yellow;
+}
+
+.row.head {
+  background-color: rgb(13, 83, 203);
+  color: white;
+  text-align: left;
+}
+
+th {
+  min-width: 150px;
+}
+
+.row.blue {
+  background-color: rgb(26, 172, 213);
 }
